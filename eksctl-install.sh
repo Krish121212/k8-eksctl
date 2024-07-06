@@ -7,4 +7,4 @@ eksctl version
 
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.30.0/2024-05-12/bin/linux/amd64/kubectl
 chmod +x ./kubectl
-sudo mv /tmp/kubectl /usr/local/bin
+sudo mv /home/ec2-user/k8-eksctl/kubectl /usr/local/bin
